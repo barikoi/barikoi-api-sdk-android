@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/main"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:fillViewport="true"
+  tools:context=".MainActivity">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:paddingBottom="16dp"
+      android:text="Barikoi SDK Demo"
+      android:textSize="24sp"
+      android:textStyle="bold" />
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:paddingBottom="24dp"
+      android:text="Tap any button to test the API. Check Logcat for results."
+      android:textSize="14sp" />
+
+    <!-- Geocoding APIs -->
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="8dp"
+      android:paddingBottom="8dp"
+      android:text="Geocoding APIs"
+      android:textSize="18sp"
+      android:textStyle="bold" />
+
+    <Button
+      android:id="@+id/btnReverseGeocode"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:text="1. Reverse Geocode" />
+
+    <Button
+      android:id="@+id/btnRupantorGeocode"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:text="2. Rupantor Geocode" />
+
+    <!-- Search APIs -->
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="16dp"
+      android:paddingBottom="8dp"
+      android:text="Search APIs"
+      android:textSize="18sp"
+      android:textStyle="bold" />
+
+    <Button
+      android:id="@+id/btnAutocomplete"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:text="3. Autocomplete"
+      android:visibility="gone" />
+
+    <Button
+      android:id="@+id/btnSearchPlace"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:text="4. Search Place"
+      android:visibility="gone" />
+
+    <Button
+      android:id="@+id/btnOpenSearchPage"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:backgroundTint="@android:color/holo_blue_dark"
+      android:text="🔍 Autocomplete and Search" />
+
+    <Button
+      android:id="@+id/btnNearbyPlaces"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:text="5. Nearby Places" />
+
+
+    <!-- Routing APIs -->
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="16dp"
+      android:paddingBottom="8dp"
+      android:text="Routing APIs"
+      android:textSize="18sp"
+      android:textStyle="bold" />
+
+    <Button
+      android:id="@+id/btnRouteOverview"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:text="6. Route Overview" />
+
+    <Button
+      android:id="@+id/btnCalculateRoute"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:text="7. Calculate Route (GraphHopper)" />
+
+    <Button
+      android:id="@+id/btnOptimizeRoute"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:text="8. Optimize Route" />
+
+    <!-- Utility APIs -->
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="16dp"
+      android:paddingBottom="8dp"
+      android:text="Utility APIs"
+      android:textSize="18sp"
+      android:textStyle="bold" />
+
+    <Button
+      android:id="@+id/btnSnapToRoad"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:text="9. Snap to Road" />
+
+    <Button
+      android:id="@+id/btnCheckNearby"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:text="10. Check Nearby (Geofence)" />
+
+    <Button
+      android:id="@+id/btnRunAllTests"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:layout_marginBottom="16dp"
+      android:backgroundTint="@color/design_default_color_error"
+      android:text="🚀 Run All Tests" />
+
+  </LinearLayout>
+</ScrollView>
