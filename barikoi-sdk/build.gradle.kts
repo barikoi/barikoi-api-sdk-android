@@ -89,8 +89,8 @@ afterEvaluate {
 
                 pom {
                     name.set("Barikoi API Android SDK")
-                    description.set("Official Android SDK for Barikoi Location APIs")
-                    url.set("https://github.com/barikoi/barikoi-api-android-sdk")
+                    description.set("Official Android SDK for Barikoi APIs")
+                    url.set("https://github.com/barikoi/barikoi-api-sdk-android")
 
                     licenses {
                         license {
@@ -108,9 +108,9 @@ afterEvaluate {
                     }
 
                     scm {
-                        connection.set("scm:git:git://github.com/barikoi/barikoi-android-sdk.git")
+                        connection.set("scm:git:git://github.com/barikoi/barikoi-api-sdk-android.git")
                         developerConnection.set("scm:git:ssh://github.com/barikoi/barikoi-android-sdk.git")
-                        url.set("https://github.com/barikoi/barikoi-android-sdk")
+                        url.set("https://github.com/barikoi/barikoi-api-sdk-android")
                     }
                 }
             }
