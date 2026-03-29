@@ -60,7 +60,7 @@ In your app's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("com.github.barikoi:barikoi-android-sdk:1.0.0")
+    implementation("com.github.barikoi:barikoi-api-android-sdk:1.0.0")
 }
 ```
 
@@ -449,7 +449,3 @@ limitations under the License.
 ---
 
 *Made by Barikoi*
-
-
-
-
