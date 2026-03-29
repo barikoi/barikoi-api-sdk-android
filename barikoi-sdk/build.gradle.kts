@@ -84,7 +84,7 @@ afterEvaluate {
                 from(components["release"])
 
                 groupId = "com.github.barikoi"
-                artifactId = "barikoi-api-sdk"
+                artifactId = "barikoi-api-android-sdk"
                 version = "1.0.0"
 
                 pom {
