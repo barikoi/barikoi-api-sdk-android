@@ -60,7 +60,7 @@ In your app's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("com.github.barikoi:barikoi-api-android-sdk:1.0.0")
+    implementation("com.github.barikoi:barikoi-api-sdk-android:1.0.0")
 }
 ```
 
