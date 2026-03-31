@@ -4,7 +4,7 @@
 [![API](https://img.shields.io/badge/API-24%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=24)
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.0.21-blueviolet.svg)](https://kotlinlang.org)
 
-A modern, easy-to-use Android SDK for [Barikoi Location APIs](https://barikoi.xyz). Built with Kotlin, Coroutines, and Retrofit.
+A modern, easy-to-use Android SDK for [Barikoi Location APIs](https://docs.barikoi.com/api). Built with Kotlin, Coroutines, and Retrofit.
 
 ---
 
