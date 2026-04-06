@@ -83,6 +83,8 @@ class MyApp : Application() {
     }
 }
 ```
+> **Note:** Please add the **MyApp** class in your `AndroidManifest.xml`
+
 
 **Step 2 – Use anywhere with no key required:**
 
