@@ -362,14 +362,6 @@ val barikoi = BarikoiClient.Builder()
     .build()
 ```
 
-### Custom base URL
-
-```kotlin
-val barikoi = BarikoiClient.Builder()
-    .apiKey("YOUR_API_KEY")
-    .build()
-```
-
 ### HTTP logging (debug only)
 
 ```kotlin
